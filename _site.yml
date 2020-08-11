@@ -9,6 +9,9 @@ navbar:
     - text: "GIS Work"
       icon: fa-globe
       href: geog176A.html
+    - text: "Jordan"
+      icon: fa-user
+      href: CV.html 
   right:
     - icon: fa-github
       href: https://github.com/J-Molinski
