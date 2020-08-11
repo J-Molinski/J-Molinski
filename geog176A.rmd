@@ -1,0 +1,11 @@
+---
+title: "Projects"
+---
+<div align="center">My last term at UCSB was summer session B of 2020. During this time, I took a Geography class emphasizing on GIS based in the language R. We learned the basics of coding, observed and manipulated data, and created our own websites to showcase what we learned and the projects we produced. 
+
+
+## [Project]()
+
+- In this assignment we built a static users site with Github Pages 
+- Includes a github repo for access to all the code.
+- Look at how high quality my work is!
