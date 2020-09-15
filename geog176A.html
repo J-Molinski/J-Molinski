@@ -11,7 +11,7 @@
 
 
 
-<title>Projects</title>
+<title>Geography 176A Projects</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -311,20 +311,98 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Projects</h1>
+<h1 class="title toc-ignore">Geography 176A Projects</h1>
 
 </div>
 
 
-<div align="center">
+<hr />
 <p>My last term at UCSB was summer session B of 2020. During this time, I took a Geography class emphasizing on GIS based in the language R. We learned the basics of coding, observed and manipulated data, and created our own websites to showcase what we learned and the projects we produced.</p>
-<div id="project" class="section level2">
-<h2><a href="">Project</a></h2>
+<hr />
+<div id="lab-2" class="section level1">
+<h1><a href="https://j-molinski.github.io/grog-176-lab2/Lab02.html">Lab #2</a></h1>
+<div id="data-wrangling" class="section level2">
+<h2>Data Wrangling</h2>
 <ul>
-<li>In this assignment we built a static users site with Github Pages</li>
-<li>Includes a github repo for access to all the code.</li>
-<li>Look at how high quality my work is!</li>
+<li>This lab project involved learning to work with and manipulate data frames.</li>
+<li>We learned to dissect large datasets in order to produce more meaningful statistics and visuals representing the data.</li>
+<li>The lab focused on COVID-19 data, and visualizing different trends in coronavirus cases in the United States.</li>
+<li>This lab served as an educative introduction to many of the tools which we continued using in the remainder of our lab and daily exercise activities.</li>
 </ul>
+<hr />
+</div>
+</div>
+<div id="lab-3" class="section level1">
+<h1><a href="https://j-molinski.github.io/grog-176-lab2/Lab03.html">Lab #3</a></h1>
+<div id="projections-distance-mapping" class="section level2">
+<h2>Projections, Distance, Mapping</h2>
+<ul>
+<li>This lab project involved learning to work with simple feature objects, classes and groups.</li>
+<li>This explorations of sf objects and classes included downloading numerous datasets and converting them to simple feature objects with coordinate reference systems applied.</li>
+<li>The rest of the lab involved calculating distances between features of the different data sets, and displaying them in both tables and graphically.</li>
+<li>The real-world application component of this lab involved observing the coastlines of the united states, and evaluating the number of cities and people living within 100 miles from the country border. This evaluation allowed us to visualize the proportion of Americans living within this zone which limits fourth amendment rights due to its proximity to the border. The map produced with these calculations is displayed below:</li>
+</ul>
+<div class="figure">
+<img src="lab3.png" alt="" />
+<p class="caption">Cities Within 100-Mile Border Zone</p>
+</div>
+<hr />
+</div>
+</div>
+<div id="lab-4" class="section level1">
+<h1><a href="https://j-molinski.github.io/grog-176-lab2/Lab04.html">Lab #4</a></h1>
+<div id="tesselations-spatial-joins-point-in-polygon" class="section level2">
+<h2>Tesselations, Spatial Joins, Point-in-Polygon</h2>
+<ul>
+<li>In this lab activity, we learned about the creation and use of tessellations, geometric simplification in order to observe patterns of distribution in data.</li>
+<li>The data we focused on in this lab was the National Dams Inventory.</li>
+<li>We created and observed the implementation of a number of tessellations across US counties.</li>
+<li>We then used these tessellations to group data showing the distribution of Dams across the United States.</li>
+<li>Furthermore, we observed the distribution of dams used for different purposes in order to identify any trends and the likely geographic or climatic explanations for their uses.</li>
+<li>Finally, the extra credit portion of this lab involved identifying dams located on the Mississippi River system which posed high or potentially high threat due to their age or improper maintenance.</li>
+<li>The image below shows the overall distribution of dams across the US using an equal-area Hexagonal Tessellation.</li>
+</ul>
+<div class="figure">
+<img src="lab4.png" alt="" />
+<p class="caption">Dam Distribution</p>
+</div>
+<hr />
+</div>
+</div>
+<div id="lab-5" class="section level1">
+<h1><a href="https://j-molinski.github.io/grog-176-lab2/Lab05.html">Lab #5</a></h1>
+<div id="raster-analysis-and-remote-sensing" class="section level2">
+<h2>Raster Analysis and Remote Sensing</h2>
+<ul>
+<li>The skills learned and established in this lab activity included working with and manipulating raster objects, isolating and importing data from the internet into our workplace, and analyzing flood data in the state of Iowa.</li>
+<li>We obtained data from the landsat8 data source, which allows for specific land and water analysis.</li>
+<li>We then learned the bands (and associated wavelengths) used to detect and differentiate different land surfaces. We combined the use of these observatory bands with raster algebra to output various indexes which serve as thresholds for identifying water features when using satellite imagery.</li>
+<li>We used these raster calculations in combination with threshold values to produce 5 plots (based on the various water indexes) showing water-covered regions over an area of Palo, Iowa.</li>
+<li>Finally, a Kmeans clustering algorithm was applied to produce a kmeans raster. We applied the kmeans flood raster to each of the other water rasters produced in order to identify areas at highest risk of flooding in the region.</li>
+<li>The plot below visualizes a summed stack of the 6 rasters developed during the lab. This was the finalized flood map for Palo, Iowa.</li>
+</ul>
+<div class="figure">
+<img src="lab5.png" alt="" />
+<p class="caption">Flood Map for Palo, Iowa</p>
+</div>
+<hr />
+</div>
+</div>
+<div id="lab-6" class="section level1">
+<h1><a href="https://j-molinski.github.io/grog-176-lab2/Lab06.html">Lab #6</a></h1>
+<div id="practical-final-flood-risk-in-mission-creek" class="section level2">
+<h2>Practical Final: Flood Risk in Mission Creek</h2>
+<ul>
+<li>This lab employed the use of various skills learned throughout the quarter in order to analyze and assess flood risks in the Mission Creek Basin of Santa Barbara.</li>
+<li>For this lab, we used data from USGS and NLDI.</li>
+<li>We evaluated terrain in the area using hillshade analysis and Height Above Nearest drainage.</li>
+<li>We also evaluated and plotted flood impact in the area for the year 2017.</li>
+</ul>
+<div class="figure">
+<img src="lab06.png" alt="" />
+<p class="caption">Buildings Impacted by Flood in 2017</p>
+</div>
+</div>
 </div>
 
 

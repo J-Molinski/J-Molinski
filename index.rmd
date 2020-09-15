@@ -1,11 +1,41 @@
 ---
 title: "About Me"
 ---
-  
+
+
 <center>
 # Hi, I'm Jordan Molinski.
 </center>
 
-![](/Users/jordanmolinski/github/176A-Lab-1/imgs/JordanEnzoNiki.png)
 
-<div align="center">**I'm Jordan Molinski, a fourth year Environmental Science major born and raised in Davis, California. When not a student, i work part-time at Farmer's Markets in Los Angeles selling sustainable seafood for a local company. While my time at UCSB will shortly come to a close, i hope to further my education by getting a master's degree in something slightly more specific than environmental science, whether it be more related to toxicology or engineering. Some of my passions and favorite pastimes include playing and watching soccer, taking my dog on hikes, or going backpacking in California's pristine wilderness**
+![At Kings Canyon National Park](Jordan.png)
+
+
+### About Me
+<div align="center">**My name is Jordan Molinski, and I am a fourth-year Environmental Science major here at UCSB. I was born and raised in Davis, California but also spent a portion of my childhood in San Diego. When not a student, I work part-time for a sustainable seafood company both as an educator/outreach coordinator and as a sales representative.  While my time at UCSB will shortly come to a close, I hope to further my education by getting a master's degree relating either to renewable energy, or toxicology.  Some of my passions and favorite pastimes include playing and watching soccer, taking my dog on hikes, or going backpacking in California's pristine wilderness.**
+
+### My Github and Contact
+- [J-Molinski](https://github.com/J-Molinski)
+- Jmolinski@ucsb.edu
+
+### More Photos
+
+![High School Graduation](grad.png)
+
+---
+
+![Baby Photo](baby.png)
+
+---
+
+![Soccer In Spain](spain.png)
+
+---
+
+![High School Ski Team](ski.png)
+
+---
+
+![The Beautiful Game](Soccer.png)
+
+
